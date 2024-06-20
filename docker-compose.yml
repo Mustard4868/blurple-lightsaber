@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+
+# database (easy to use engine for docker volumes)
+# -------------------------------------
+# no ports forwarded
+# attach storage volume
+
+
+# express api (depends on database)
+# -------------------------------------
+# no ports forwarded
+# no volumes
+
+
+# react server (depends on express api)
+# -------------------------------------
+# forward (to) port 80
+# no volumes
